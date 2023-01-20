@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <h1>&#127780;Weather App</h1>
+    </header>
+    <div id="container">
+      <!-- search bar -->
+      <div class="search-bar">
+        <button class="status">
+          <img src="" alt="location-icon" class="location-icon" />
+        </button>
+        <input
+          type="text"
+          required
+          class="cityNameInput"
+          placeholder="Search"
+        />
+        <button class="search"><img src="" alt="search icon" /></button>
+      </div>
+      <!-- main -->
+      <main class="hide main">
+        <div class="country-day">
+          <p class="city-country"></p>
+          <p class="day"></p>
+        </div>
+        <!-- temp -->
+        <div class="temp-container">
+          <h1 class="temp"></h1>
+          <p class="desc"></p>
+        </div>
+        <!-- extra info -->
+        <div class="extra">
+          <p class="feels-like"></p>
+          <p class="humidity"></p>
+        </div>
+      </main>
+    </div>
+    <!-- for error -->
+    <p class="error"></p>
+    <footer></footer>
+  </body>
+</html>
